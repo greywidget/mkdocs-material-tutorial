@@ -1,17 +1,68 @@
-# Welcome to MkDocs
+# Homepage
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Code Annotation Examples
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Codeblocks
 
-## Project layout
+Some `code` goes here.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Plain codeblock
+
+A plain codeblock
+
+```
+Some code here
+def myfunction()
+// some comment
+```
+
+### Code for a specific language
+
+Some more code with the `py` at the start:
+
+``` py
+from datetime import datetime
+
+def get_current_time()
+    print(datetime.now())
+```
+
+#### With a title
+``` py title="get_current_day.py"
+from datetime import date
+
+def get_current_day()
+    return date.today()
+```
+
+#### with line numbers
+``` py title="times_table.py" linenums="1"
+from rich import pretty, print
+pretty.install()
+
+def times_table(num, limit):
+    res = [num * idx for idx in range(1, limit+1)]
+    return res
+```
+
+#### with line numbers and highlighted lines
+``` py title="times_table.py" linenums="1" hl_lines="4 5 6"
+from rich import pretty, print
+pretty.install()
+
+def times_table(num, limit):
+    res = [num * idx for idx in range(1, limit+1)]
+    return res
+```
+
+## Icons and Emojis
+
+:smile:
+
+:fontawesome-regular-face-laugh-wink:
+
+:fontawesome-brands-twitter:{ .twitter }
+
+:octicons-heart-fill-24:{ .heart }
