@@ -1,6 +1,10 @@
-# Homepage
+# Start Here
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+[Have a look at page 2](page2.md)
+
+[it's me!](natives/kiwi.md)
 
 ## Code Annotation Examples
 
