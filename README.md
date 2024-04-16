@@ -7,3 +7,7 @@ Most of what you need to know can be learned by looking at the markdown files an
 
 # Publishing
 We need to use github actions to publish our actions for us.
+Also in your repo you need to:
+
+`Settings|Pages` Under GitHub Pages, choose `Source: Deploy from a branch`, then choose `branch: gh-pages`.
+Click `save`
